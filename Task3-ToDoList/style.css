@@ -42,11 +42,6 @@ padding: 30px 20px;
     font-size: 15px;
     border: 2px solid #d1d4d2;
 }
-
-#newtask input:focus{
-    outline: none;
-    border-color: #0d75ec;
-}
 #newtask button
 {
     position: relative;
@@ -75,8 +70,6 @@ padding: 30px 20px;
     justify-content: space-between;
     align-items: center;
     border-radius: 5px;
-    align-items: center;
-    justify-content: space-between;
     border: 1px solid #939697;
     cursor: pointer;
     background-color: #c5e1e6;
@@ -91,64 +84,15 @@ padding: 30px 20px;
 }
 
 .task button{
-    background-color: #3cca72;
+    background-color: #3cca72bd;
     color: #ffffff;
     border: none;
-    cursor: pointer;
-    outline: none;
     height: 100%;
     width: 40px;
     border-radius: 5px;
 }
-#todo-form{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#todo-input{
-    width: 75%;
-    height: 45px;
-    padding: 12px;
-    color: #111111;
-    font-weight: 500;
-    position: relative;
-    border-radius: 5px;
-    font-family: 'Poppins',sans-serif;
-    font-size: 15px;
-    border: 2px solid #d1d3d4;
-}
-.add-button{
-    position: relative;
-    float: right;
-    font-weight: 500;
-    font-size: 16px;
-    background-color: #0d75ec;
-    border: none;
-    color: #ffffff;
-    cursor: pointer;
-    outline: none;
-    width: 20%;
-    height: 45px;
-    border-radius: 5px;
-    font-family: 'Poppins',sans-serif;
-}
-.file-list{
-    padding: 30px 20px;
-}
-.todo-item{
-    list-style: none;
-}
-.todo-item li{
-    border-radius: 5px;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid #939697;
-    cursor: pointer;
-    background-color: #c5e1e6;
-    height: 50px;
-    margin-bottom: 8px;
-    padding: 5px 10px;
-    display: flex;
+.task button:hover{
+    background-color: #3cca72ef;
 }
 .completed{
     text-decoration: line-through;
